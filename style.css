@@ -1,7 +1,7 @@
 @import 'utilities.css';
  
 body{
-    font family:sans-serif;
+    font family: sans-serif;
 }
 *{
     padding:0;
@@ -17,14 +17,14 @@ header{
     height:800px
 }
 .container{
-    max-width:1152px;
-    padding:0 15px;
+    max-width:100%;
+    padding:0 70px;
     margin:0 auto;
 }
 header nav .left a{
     color:white;
     text-decoration:none;
-    margin-right:2rem;
+    margin-right:3rem;
     transition:all .3s ;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s;
@@ -56,7 +56,7 @@ color: aliceblue;
 width: 562px;
 height: 515px;
 left: 425px;
-top: 20%;
+top: 30%;
 color: aliceblue;
 }
 a:link {
@@ -220,3 +220,6 @@ background: #C4C4C4;
   .prev, .next,.text {font-size: 11px}
 }
 
+.left{
+  padding-left: 80px;
+}
